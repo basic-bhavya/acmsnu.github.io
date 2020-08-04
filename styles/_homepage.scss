@@ -1,0 +1,41 @@
+.hometop {
+  .highlight {
+    // display: inline;
+    position: relative;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 40%,
+      $blueprimary 40%
+    );
+    // &:nth-child(1) {
+    //   position: absolute;
+    //   top: 39.5vh;
+    //   width: 55vw;
+    //   height: 3vw;
+    //   background-color: $blueprimary;
+    //   //   z-index: 10;
+    // }
+
+    // &:nth-child(2) {
+    //   position: absolute;
+    //   top: 51.5vh;
+    //   width: 40vw;
+    //   height: 3vw;
+    //   background-color: $blueprimary;
+    // }
+    // &:nth-child(3) {
+    //   position: absolute;
+    //   top: 45vh;
+    //   width: 40vw;
+    //   height: 10vh;
+    //   background-color: $blueprimary;
+    // }
+    // &:nth-child(4) {
+    //   position: absolute;
+    //   top: 45vh;
+    //   width: 40vw;
+    //   height: 10vh;
+    //   background-color: $blueprimary;
+    // }
+  }
+}

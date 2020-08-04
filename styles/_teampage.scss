@@ -1,0 +1,30 @@
+body {
+  color: white;
+}
+
+.page-head {
+  position: absolute;
+  top: 12vw;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.core {
+  position: absolute;
+  top: 30vh;
+}
+
+// .row1 {
+//   position: absolute;
+//   top: 30vh;
+//   left: 5vw;
+// }
+
+// .row2 {
+//   position: absolute;
+//   top: 70vh;
+//   left: 5vw;
+// }
