@@ -1,0 +1,19 @@
+.event-desc {
+  margin-bottom: 5%;
+  margin-left: 4%;
+  width: 60%;
+
+  @media (max-width: 1080px) {
+    margin-left: 2%;
+    width: 90%;
+  }
+}
+
+.event-name {
+  margin-left: 4%;
+
+  @media (max-width: 1080px) {
+    margin-left: 2%;
+    // width: 90%;
+  }
+}
