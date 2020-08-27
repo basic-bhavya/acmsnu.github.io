@@ -7,35 +7,78 @@
       rgba(255, 255, 255, 0) 40%,
       $blueprimary 40%
     );
-    // &:nth-child(1) {
-    //   position: absolute;
-    //   top: 39.5vh;
-    //   width: 55vw;
-    //   height: 3vw;
-    //   background-color: $blueprimary;
-    //   //   z-index: 10;
-    // }
+    font-size: 3.2rem;
+    top: 35vh;
 
-    // &:nth-child(2) {
-    //   position: absolute;
-    //   top: 51.5vh;
-    //   width: 40vw;
-    //   height: 3vw;
-    //   background-color: $blueprimary;
-    // }
-    // &:nth-child(3) {
-    //   position: absolute;
-    //   top: 45vh;
-    //   width: 40vw;
-    //   height: 10vh;
-    //   background-color: $blueprimary;
-    // }
-    // &:nth-child(4) {
-    //   position: absolute;
-    //   top: 45vh;
-    //   width: 40vw;
-    //   height: 10vh;
-    //   background-color: $blueprimary;
-    // }
+    @include respond-below(sm) {
+      top: 20vh;
+      font-size: 2rem;
+    }
   }
+}
+
+.hometop {
+  * {
+    position: absolute;
+    color: white;
+    left: 5%;
+    width: 60%;
+
+    @include respond-below(sm) {
+      width: 90%;
+    }
+  }
+
+  h4 {
+    font-size: fontset(10px, 40);
+    top: 40vh;
+    width: 50%;
+  }
+
+  .quote {
+    top: 70vh;
+    left: 5%;
+    color: #c9c9c9;
+    font-style: italic;
+  }
+
+  .homelogo {
+    position: absolute;
+    top: 40vh;
+    left: 65vw;
+  }
+}
+
+.description {
+  position: absolute;
+  color: white;
+  top: 100vh;
+  left: 5%;
+  // width: 50vw;
+  text-align: justify;
+
+  @include respond-above(md) {
+    .heading {
+      padding-top: 5%;
+      font-size: 3rem;
+    }
+  }
+
+  .content {
+    // width: 50vw;
+    @include respond-above(md) {
+      font-size: 1.2rem;
+      width: 70vw;
+    }
+
+    @include respond-below(md) {
+      left: 0%;
+      font-size: 1.2rem;
+      width: 95vw;
+    }
+  }
+}
+
+.event-highlights {
+  // height: 70vh;
 }
