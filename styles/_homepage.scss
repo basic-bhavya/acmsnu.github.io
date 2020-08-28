@@ -80,5 +80,10 @@
 }
 
 .event-highlights {
-  // height: 70vh;
+  .carousel-inner {
+    .carousel-item {
+      margin: auto;
+      // width: 70%;
+    }
+  }
 }
