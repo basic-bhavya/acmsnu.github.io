@@ -57,33 +57,33 @@
   // width: 50vw;
   text-align: justify;
 
-  @include respond-above(md) {
-    .heading {
-      padding-top: 5%;
-      font-size: 3rem;
-    }
+  .heading {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 3rem;
   }
+  // @include respond-above(md) {
+
+  // }
 
   .content {
-    // width: 50vw;
-    @include respond-above(md) {
-      font-size: 1.2rem;
-      width: 70vw;
-    }
+    width: 75vw;
+    font-size: 1.2rem;
+    // @include respond-above(md) {
+    //   font-size: 1.2rem;
+    //   width: 70vw;
+    // }
 
-    @include respond-below(md) {
-      left: 0%;
-      font-size: 1.2rem;
-      width: 95vw;
-    }
+    // @include respond-below(md) {
+    //   left: 0%;
+    //   font-size: 1.2rem;
+    //   width: 95vw;
+    // }
   }
 }
 
 .event-highlights {
-  .carousel-inner {
-    .carousel-item {
-      margin: auto;
-      // width: 70%;
-    }
+  .carouselImg {
+    max-height: 100vh;
   }
 }
